@@ -1,0 +1,13 @@
+body {body {
+  text-align: center;
+}
+
+#navbar {
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  #navbar {
+    position: fixed;
+  }
+}
