@@ -1,9 +1,10 @@
-def count(word):
-    count = 0
-    for letter in word:
-        if letter == 'a':
-            count = count + 1
-    print(count)
+#_def count(tocount):
+#    count = 0
+#    for letter in word:
+#        if letter == tocount:
+#            count += 1
+#    print(count)
 
-word="banana"
-count(word)
+word=input("What is your word?: ")
+tocount=input("What do you want to count?: ")
+print(word.count(tocount))
