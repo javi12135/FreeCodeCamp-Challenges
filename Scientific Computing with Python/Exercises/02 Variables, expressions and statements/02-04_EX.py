@@ -1,3 +1,4 @@
+#Exercise 4: Assume that we execute the following assignment statements
 #1
 width=17
 width=width//2
